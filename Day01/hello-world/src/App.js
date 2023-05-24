@@ -1,10 +1,18 @@
-
+import FirstComp from "./FirstComp.js";
 function App() {
   return (
-    <div className="App">
-    <h1>Hello World!</h1>
-    <p>My name is <strong>John Doe</strong></p>
-    </div>
+    <>
+      <h1>Hello World!</h1>
+      <p>
+        This is a React app.
+      </p>
+      <br/>
+      <hr />
+      <FirstComp></FirstComp>
+      <FirstComp/>
+      <hr />
+      <p>APP FOOTER</p>
+    </>
   );
 }
 

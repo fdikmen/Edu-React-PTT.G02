@@ -25,3 +25,10 @@ ls
 Clear Terminal
 cls (windows)
 clear (linux/macos)
+
+
+### Day01
+
+1. npx create-react-app [projectName]
+2. Folder Structure
+3. Component
