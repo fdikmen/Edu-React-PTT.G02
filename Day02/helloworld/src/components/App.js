@@ -1,6 +1,8 @@
 import Blog from "./Blog";
 import StateSample from "./StateSample";
 import EventSample from "./EventSample";
+import ClassComp from "./ClassComp";
+import FuncComp from "./FuncComp";
 
 function App() {
   const users = [
@@ -14,14 +16,16 @@ function App() {
 
   return (
    <div>
-      <h1>Hello World!</h1>
+      {/* <h1>Hello World!</h1> */}
+      <ClassComp/>
+      <FuncComp/>
       <hr/>
-      <EventSample/>
+      {/* <EventSample/> */}
       <hr/>
-      <StateSample/>
+      {/* <StateSample/> */}
       <hr/>
-      <Blog age={12} name="Tommy" isactive={true} 
-      users={users}  onClick={onHandleClick}/>
+      {/* <Blog age={12} name="Tommy" isactive={true} 
+      users={users}  onClick={onHandleClick}/> */}
    </div>
   );
 }

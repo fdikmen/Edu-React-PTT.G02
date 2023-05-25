@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import StateSubSample from './StateSubSample'
 
-export default class EventSample extends Component {
+export default class StateSample extends Component {
     state = {
         counter: 1,username:'TommyUserName'
     }

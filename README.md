@@ -50,5 +50,10 @@ clear (linux/macos)
 10. Bind
 11. React Developer Tools <br/>
 https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related
+
+Note: https://www.wappalyzer.com/
+
 12. Class vs Functional Component
-13. 
+13. STATE - useState
+14. Import Logic
+
