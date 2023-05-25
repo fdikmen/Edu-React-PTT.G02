@@ -3,7 +3,7 @@
 
 Live Share Link;
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?A6FEDD47149446BF15E48E7C4279D90656A0
+https://prod.liveshare.vsengsaas.visualstudio.com/join?4A735876237DD56F55FE4E9373CF46B236FC
 
 Create A Project
 ```
@@ -17,10 +17,13 @@ CTRL + C
 
 Open Folder
 cd [... name / path ...]
+<br/>
 Open Parent Folder
 cd ..
+<br/>
 List Folders
 ls
+<br/>
 
 Clear Terminal
 cls (windows)
