@@ -35,3 +35,12 @@ clear (linux/macos)
 1. npx create-react-app [projectName]
 2. Folder Structure
 3. Component
+
+### Day02
+
+1. Summary
+2. Components
+3. JSX Field - JS Code Field - Class Field
+4. Props
+5. PropTypes - PropTypes-shape
+6. Default Props
