@@ -1,4 +1,5 @@
 import Blog from "./Blog";
+import StateSample from "./StateSample";
 import EventSample from "./EventSample";
 
 function App() {
@@ -17,8 +18,10 @@ function App() {
       <hr/>
       <EventSample/>
       <hr/>
-      {/* <Blog age={12} name="Tommy" isactive={true} 
-      users={users}  onClick={onHandleClick}/> */}
+      <StateSample/>
+      <hr/>
+      <Blog age={12} name="Tommy" isactive={true} 
+      users={users}  onClick={onHandleClick}/>
    </div>
   );
 }

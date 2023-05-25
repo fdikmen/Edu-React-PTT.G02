@@ -2,28 +2,27 @@ import React, { Component } from 'react'
 import EventSubSample from './EventSubSample'
 
 export default class EventSample extends Component {
-    // state = {
-    //     age: 12
-    // }
+    state = {counter: 0}
     render() {
-        const name = 'Tommy'
-        let age = 12;
-        const onHandleClick = (ageNumber) => {
-            console.log("Clicked!")
-            //this.setState({age:ageNumber})
-            age = Math.random() * 10;
-            console.log("Age is ",age)
+        const onHandleIncrease = () => {
+            this.setState({ counter: this.state.counter + 1 })
+        }
+        const onSetCounter = (num) => {
+            this.setState({ counter: num })
         }
         return (
             <div>
-                <h2>Event Sample Component</h2>
-                Name is : {name}<br />
+                EventSample
+                <h2>Counter is {this.state.counter}</h2>
                 <button type='button'
-                onClick={onHandleClick}
-                >Console Write!</button>
-                <EventSubSample age={age}
-                onHandleClick={onHandleClick}
-                />
+                    onClick={onHandleIncrease}
+                >Increase</button>
+                <hr />
+
+                <EventSubSample 
+                onSetCounter={onSetCounter}
+                counter={this.state.counter}  
+                onHandleIncrease={onHandleIncrease}/>
             </div>
         )
     }

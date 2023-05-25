@@ -38,9 +38,17 @@ clear (linux/macos)
 
 ### Day02
 
-1. Summary
-2. Components
-3. JSX Field - JS Code Field - Class Field
-4. Props
-5. PropTypes - PropTypes-shape
-6. Default Props
+01. Summary
+02. Components
+03. JSX Field - JS Code Field - Class Field
+04. Using CSS (inline Style, external Style, Style File)
+05. Props
+06. PropTypes - PropTypes->shape
+07. Default Props
+08. State
+09. Events
+10. Bind
+11. React Developer Tools <br/>
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related
+12. Class vs Functional Component
+13. 
