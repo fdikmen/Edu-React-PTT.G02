@@ -64,24 +64,27 @@ npx create-react-app phonebook
 
 01. Summary
 02. APP.1 - Phone Book with Class Component
+
+03. APP.2 - Phone Book with Functional Component
 - Create Project
 - Remove File/Code
 - Create Component Folder/Files (Contact-Form-List)
 - Import Components on DOM Node
 - Coding/Import Style /main.css
 - Coding Contact,List,Form Component
-
-03. APP.2 - Phone Book with Functional Component
 04. Script fileds & Build Application
-04. Life Cycle
+05. Life Cycle
 React Life Cycle Methods <br/>
 https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
-05. Life Cycle in Functional Component
-06. Fetch | Router ?
-07. DOM - Slide
-08. APP.3 - Keyboard-events-app
-09. Hooks - useState, useEffect, useRef
-10. Exam
-11. Other ...
-12. Build
+06. Life Cycle in Functional Component
+07. Hooks - useState, useEffect, useRef
+08. Exam
+
+### Day04
+
+01. Summary
+02. Fetch
+03. DOM - Slide
+04. APP.3 - Keyboard-events-app
+05. Route
 
