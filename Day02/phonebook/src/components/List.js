@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 export default class List extends Component {
-  state = {
-    filterText: ''
-  }
+  state = {filterText: ''}
   static propTypes = {
     contacts: PropTypes.array.isRequired
   }

@@ -65,7 +65,15 @@ npx create-react-app phonebook
 
 01. Summary
 02. APP.1 - Phone Book with Class Component
+- Create Project
+- Remove File/Code
+- Create Component Folder/Files (Contact-Form-List)
+- Import Components on DOM Node
+- Coding/Import Style /main.css
+- Coding Contact,List,Form Component
+
 03. APP.2 - Phone Book with Functional Component
+04. Script fileds & Build Application
 04. Life Cycle
 05. Life Cycle in Functional Component
 06. Fetch | Router ?
