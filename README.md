@@ -1,9 +1,8 @@
 # React-PTT-v2
 
 
-Live Share Link;
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?23366B0D8E75327EED8028A1E3628363181A
+Live Share Link;<br/>
+https://prod.liveshare.vsengsaas.visualstudio.com/join?40A60E67A06FBC7487BF413FBAAA071DD917
 
 Create A Project
 ```
@@ -75,6 +74,8 @@ npx create-react-app phonebook
 03. APP.2 - Phone Book with Functional Component
 04. Script fileds & Build Application
 04. Life Cycle
+React Life Cycle Methods <br/>
+https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 05. Life Cycle in Functional Component
 06. Fetch | Router ?
 07. DOM - Slide
