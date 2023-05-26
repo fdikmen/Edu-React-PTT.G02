@@ -1,11 +1,15 @@
-.ListComponent{
+.ListComponent,.FormComponent{
     margin: 0 auto;
     padding: 10px;
     width: 300px;
     border: 1px solid #e6e6e6;
 }
 
-.ListComponent input{
+.FormComponent{
+    margin-top: 5px;
+}
+
+.ListComponent input,.FormComponent input{
     margin-bottom: 10px;
     padding: 10px;
     width: 90%;
@@ -21,3 +25,16 @@
     margin-bottom: 5px;
     padding: 1px;
 }
+
+.ListComponent li span{
+    margin-right: 10px;
+}
+
+.FormComponent button{
+    padding: 10px;
+    width: 98%;
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+
