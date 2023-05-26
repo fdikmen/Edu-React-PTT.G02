@@ -2,10 +2,10 @@
 import React,{useState} from 'react'
 
 
-export default function FuncComp() {
+export default function FuncComp(props) {
     // JS CODE FIELD
     const [counter, setCounter] = useState(0)
-    const [name, setName] = useState('Tommy')
+    const [name, xxxxx] = useState('Tommy')
     const changeCounter = () => {setCounter(counter + 1)}
   return (
      // JSX CODE FIELD

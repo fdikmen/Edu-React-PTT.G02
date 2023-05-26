@@ -3,7 +3,7 @@
 
 Live Share Link;
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?E186BA38C0394F13A2B07968D82BCF70E6A8
+https://prod.liveshare.vsengsaas.visualstudio.com/join?23366B0D8E75327EED8028A1E3628363181A
 
 Create A Project
 ```
@@ -32,7 +32,7 @@ clear (linux/macos)
 
 ### Day01
 
-1. npx create-react-app [projectName]
+1. npx create-react-app [projectName] or .
 2. Folder Structure
 3. Component
 
@@ -60,4 +60,19 @@ Note: https://www.wappalyzer.com/ for web site technology analyzer
 ```
 npx create-react-app phonebook
 ```
+
+### Day03
+
+01. Summary
+02. APP.1 - Phone Book with Class Component
+03. APP.2 - Phone Book with Functional Component
+04. Life Cycle
+05. Life Cycle in Functional Component
+06. Fetch | Router ?
+07. DOM - Slide
+08. APP.3 - Keyboard-events-app
+09. Hooks - useState, useEffect, useRef
+10. Exam
+11. Other ...
+12. Build
 
