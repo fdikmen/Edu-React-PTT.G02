@@ -19,7 +19,7 @@ export default function FuncLifecycleSample() {
         }
     },[])
 
-    //componentDidUpadte
+    //componentDidUpdate
     //useEffect(function,array)
     useEffect(() => {
         console.log('04-componentDidUpdate Run!')
