@@ -84,6 +84,7 @@ https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 01. Summary
 02. Fetch
+Fake Data API: https://jsonplaceholder.typicode.com/
 03. DOM - Slide
 04. APP.3 - Keyboard-events-app
 05. Route
