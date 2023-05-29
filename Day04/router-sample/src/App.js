@@ -1,41 +1,40 @@
-import { Link, Routes,Route } from "react-router-dom";
+import { Link, Routes, Route, NavLink } from "react-router-dom";
 import Address from "./components/Address";
+import Footer from "./components/Footer";
+import User from "./components/User";
+import UserClass from "./components/UserClass";
+import RootRooter from "./config/RootRooter";
 function App() {
   return (
     <div>
       <h1>React Router DOM</h1>
       {/* <a href="/About"> About with html a tag</a> <br/> */}
-      <Link to="/About"> About with router Link</Link> <br/>
-      <Link to="/Contact"> Contact with router Link</Link> <br/>
-      <Link to="/Address"> Address with router Link</Link> <br/>
+      <Link to="/About"> About with router Link</Link> <br />
+      <Link target="_blank" to="/Contact"> Contact with router Link</Link> <br />
+      <Link style={{ color: 'red' }} to="/Address"> Address with router Link</Link> <br />
+      <Link to="/User"> USER</Link> <br />
+      <Link to="/UserClass"> USER with Class Component</Link> <br />
 
-      <Routes>
-        {/* <Route path="/" element={<h1>HOME PAGE</h1>} /> */}
-        <Route index element={<h1>HOME PAGE</h1>} />
-        <Route path="/About" element={<About/>} />
-        {/* <Route path="/About" element={<Contact/>} /> */}
-        <Route path="/Contact" element={<Contact/>} />
-        <Route path="/Address" element={<Address/>} />
-        <Route path="*" element={<h1>404 NOT FOUND!</h1>} />
-      </Routes>
+      <NavLink
+        to="/messages"
+        style={({ isActive }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isActive ? "yellow" : "",
+            // color: isPending ? "red" : "black",
+          };
+        }}
+      >
+        Messages
+      </NavLink>
+      <hr />
+      <RootRooter />
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
-
-function About() {
-  return (
-    <div>About</div>
-  )
-}
-
-function Contact() {
-  return (
-    <div>Contact</div>
-  )
-}
 
 // function Address() {
 //   return (

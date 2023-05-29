@@ -86,7 +86,7 @@ https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 02. Fetch
 Fake Data API: https://jsonplaceholder.typicode.com/
 03. Axios
-04. Routes [BrowserRouter , Link]
+04. Routes [BrowserRouter , Link, Routes, Route (index, no match, params), NavLink ]
 05. DOM - Slide
 06. APP.3 - Keyboard-events-app
 
