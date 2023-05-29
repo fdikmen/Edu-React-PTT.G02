@@ -96,4 +96,5 @@ npm i react-router-dom
 [BrowserRouter , Link (to), Routes, Route (path,index, no match *,any text *, params :), Nested Route, NavLink ]
 05. DOM - Slide
 06. APP.3 - Keyboard-events-app
+07. Higher Order Component (HOC)
 
