@@ -2,7 +2,7 @@
 
 
 Live Share Link;<br/>
-https://prod.liveshare.vsengsaas.visualstudio.com/join?7D7AD9AA33D1976900D2768BFD0F81808927
+https://prod.liveshare.vsengsaas.visualstudio.com/join?6944FF70183AF9D93B19A689FAB530FDCA86
 
 Create A Project
 ```
@@ -97,4 +97,9 @@ npm i react-router-dom
 05. DOM - Slide
 06. APP.3 - Keyboard-events-app
 07. Higher Order Component (HOC)
+
+### Day05
+
+01. Summary
+02. HOC
 
