@@ -115,9 +115,10 @@ Reducer (Store_Brain-State_Management-State_Object) - subscribe
 npm install redux
 09. Counter with Redux Core
 10. redux devtools extension
-09. Modern Redux - Redux Toolkit
+09. Modern Redux - Redux Toolkit <br/>
+SRC::: https://redux.js.org/tutorials/essentials/part-2-app-structure
+
 ```
-// SRC:::https://redux.js.org/tutorials/essentials/part-2-app-structure
 npx create-react-app [my-app] --template redux 
 ```
 10. Redux
