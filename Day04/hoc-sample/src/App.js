@@ -33,10 +33,12 @@ function App() {
   const [todos, setTodos] = useState([])
   useEffect(() => {
     setLoading(true)
-    axios.get('https://jsonplaceholder.typicode.com/todos')
+    setTimeout(() => {
+      axios.get('https://jsonplaceholder.typicode.com/todos')
     .then(res => setTodos(res.data))
     .catch(err => console.log(err))
     .finally(() => setLoading(false))
+    }, 3000);
   }, [])
 
   return (

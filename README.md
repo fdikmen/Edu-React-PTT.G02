@@ -102,4 +102,14 @@ npm i react-router-dom
 
 01. Summary
 02. HOC
+03. Reausable HOC
+04. Pure Component
+05. Context API (context-sample project)
+06. Promise Slide & Coding
+07. SLIDE:::Redux (redux-sample project) - Modern Redux
+Store - dispatch(action) - action=>{type:'...',payload:'...'}
+Reducer (Store_Brain-State_Management-State_Object) - subscribe
+08. Introduction to Redux
+09. Modern Redux - Redux Toolkit
+10. Redux
 

@@ -11,4 +11,4 @@ export function Post(props) {
   )
 }
 
-export default LoaderHOC(Post)
+export default LoaderHOC(Post,'posts')

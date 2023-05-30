@@ -7,15 +7,23 @@ const LoaderHOC = (ComponentXXX) => {
  */
 
 
-const LoaderHOC = (ComponentXXX) => {
+const LoaderHOC = (ComponentXXX,field) => {
     return class LoaderHOC extends Component {
         render() {
           return (
            <div className='divSection'>
              {
-                this.props.loading
-                ? <h1>Loading...</h1> 
-                : <ComponentXXX {...this.props} />
+                // this.props.loading
+                // ? <h1>Loading...</h1> 
+                // : <ComponentXXX {...this.props} />
+                this.props.loading & this.props[field].length === 0
+                ? <h1>Loading...</h1>
+                : (
+                  !this.props.loading & this.props[field].length === 0
+                  ? <h1>No Data...</h1>
+                  :<ComponentXXX {...this.props} />
+                )
+                
              }
            </div>
           )

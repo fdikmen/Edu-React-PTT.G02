@@ -12,4 +12,4 @@ export function Todo({todos}) {
   )
 }
 
-export default LoaderHOC(Todo)
+export default LoaderHOC(Todo,'todos')
