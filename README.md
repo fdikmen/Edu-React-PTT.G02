@@ -109,16 +109,14 @@ npm i react-router-dom
 07. SLIDE:::Redux (redux-sample project) - Modern Redux
 Store - dispatch(action) - action=>{type:'...',payload:'...'}
 Reducer (Store_Brain-State_Management-State_Object) - subscribe
-
-
-08. Introduction to Redux
+08. Redux Flow Chart : https://github.com/reduxjs/redux/issues/653
+09. Introduction to Redux
 npm install redux
-09. Counter with Redux Core
-10. redux devtools extension
-09. Modern Redux - Redux Toolkit <br/>
+10. Counter with Redux Core
+11. redux devtools extension
+12. Modern Redux - Redux Toolkit <br/>
 SRC::: https://redux.js.org/tutorials/essentials/part-2-app-structure
-
 ```
 npx create-react-app [my-app] --template redux 
 ```
-10. Redux
+13. Redux
