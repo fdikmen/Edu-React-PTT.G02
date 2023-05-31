@@ -45,8 +45,9 @@ To stop the project, press `CTRL + C` in the terminal.
 09. Events
 10. Bind
 11. React Developer Tools
-[CLICK LINK FOR CHROME](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
-Note: https://www.wappalyzer.com/ for web site technology analyzer
+> [Link for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
+
+>Note: https://www.wappalyzer.com/ for web site technology analyzer
 
 12. Class vs Functional Component
 13. STATE - useState
@@ -70,8 +71,8 @@ npx create-react-app phonebook
 
 04. Script fileds & Build Application
 05. Life Cycle
-React Life Cycle Methods
-https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+- React Life Cycle Methods
+> https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 06. Life Cycle in Functional Component
 07. Hooks - useState, useEffect, useRef
@@ -82,7 +83,7 @@ https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 ### Day04
 01. Summary
 02. Fetch
-Fake Data API: https://jsonplaceholder.typicode.com/
+ > Fake Data API: https://jsonplaceholder.typicode.com/
 03. Axios
 ```
 npm i axios
@@ -109,13 +110,16 @@ npm i react-router-dom
 
 > Store - dispatch(action) - action=>{type:'...',payload:'...'} Reducer
 > (Store_Brain-State_Management-State_Object) - subscribe
+
 08. Redux Flow Chart : https://github.com/reduxjs/redux/issues/653
 09. Introduction to Redux
+    ```
     npm install redux
+    ```
 10. Counter with Redux Core
 11. redux devtools extension
 12. Modern Redux - Redux Toolkit
-SRC::: https://redux.js.org/tutorials/essentials/part-2-app-structure
+> SRC::: https://redux.js.org/tutorials/essentials/part-2-app-structure
 ```
 npx create-react-app [my-app] --template redux
 ```
