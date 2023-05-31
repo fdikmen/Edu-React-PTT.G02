@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { createStore } from 'redux';
+import { createStore,combineReducers } from 'redux';
 
 // Step 1: Create a reducer function
 /*
@@ -26,11 +26,23 @@ const counterReducer = (state = { value: 0 }, { type, payload }) => {
   }
 };
 
+
+const counterReducer02 = (state = { value: 0 }, { type, payload }) => {
+  switch (type) {
+    case "INCREMENT02":
+      return { value: state.value + 1 };
+    case "DECREMENT02":
+      return { value: state.value - 1 };
+    default:
+      return state;
+  }
+};
+const allReducer = combineReducers({counterReducer,counterReducer02});
 // Step 2: Create a store using createStore()
-const myStore = createStore(counterReducer);
+const myStore = createStore(allReducer);
 
 // Step 3: Get the current state
-console.log("First Counter State Value:", myStore.getState());
+console.log("First Counter State Value:", myStore.getState().counterReducer);
 
 // Step 3: Subscribe to the store to get notified of state changes
 myStore.subscribe(() => { console.log("Subscribe Counter State Value:", myStore.getState()) });

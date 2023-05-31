@@ -129,7 +129,10 @@ npx create-react-app [my-app] --template redux
 	- 13.3.	https://medium.com/@fdikmen/redux-toolkit-ile-asenkron-i%CC%87%C5%9Flemleri-y%C3%B6netme-redux-thunk-41dde4ba4c07
 
   
-  
+    
+### Day06
+01. Summary
+02. Install Redux Toolkit
   
   
 
