@@ -135,4 +135,4 @@ npx create-react-app [my-app] --template redux
 
 Live Share Link;<br/>
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?6944FF70183AF9D93B19A689FAB530FDCA86
+https://prod.liveshare.vsengsaas.visualstudio.com/join?95D6BB9F1AC9E1A1F9B62F9EB486DE507EC1
