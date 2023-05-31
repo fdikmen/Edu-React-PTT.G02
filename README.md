@@ -140,7 +140,8 @@ npx create-react-app [my-app] --template redux
     > Provide Store for all Components (index.js)
     > useDispatch / useSelector (Component=> User.js)
 
-04. Using Redux Tookit Template
+04. Thunk Middleware
+05. Using Redux Tookit Template
 
 
   
