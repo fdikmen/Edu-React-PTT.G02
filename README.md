@@ -120,9 +120,9 @@ SRC::: https://redux.js.org/tutorials/essentials/part-2-app-structure
 npx create-react-app [my-app] --template redux
 ```
 13. Using Modern Redux
-13.1. https://medium.com/@fdikmen/redux-toolkit-ile-modern-redux-kullan%C4%B1m%C4%B1-5b59f8055da6
-13.2. https://medium.com/@fdikmen/reduxta-action-creators-ve-action-types-24c28c651547 
-13.3. https://medium.com/@fdikmen/redux-toolkit-ile-asenkron-i%CC%87%C5%9Flemleri-y%C3%B6netme-redux-thunk-41dde4ba4c07
+	13.1.	https://medium.com/@fdikmen/redux-toolkit-ile-modern-redux-kullan%C4%B1m%C4%B1-5b59f8055da6
+	13.2.	https://medium.com/@fdikmen/reduxta-action-creators-ve-action-types-24c28c651547
+	13.3.	https://medium.com/@fdikmen/redux-toolkit-ile-asenkron-i%CC%87%C5%9Flemleri-y%C3%B6netme-redux-thunk-41dde4ba4c07
 
   
   
