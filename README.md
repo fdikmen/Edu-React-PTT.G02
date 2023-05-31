@@ -118,25 +118,31 @@ npm i react-router-dom
     ```
 10. Counter with Redux Core
 11. redux devtools extension
-[Configure Link](https://github.com/zalmoxisus/redux-devtools-extension)
+    - [Configure Link](https://github.com/zalmoxisus/redux-devtools-extension)
 12. Modern Redux - Redux Toolkit
 > SRC::: https://redux.js.org/tutorials/essentials/part-2-app-structure
 ```
 npx create-react-app [my-app] --template redux
 ```
-13. Using Modern Redux
-	- 13.1.	https://medium.com/@fdikmen/redux-toolkit-ile-modern-redux-kullan%C4%B1m%C4%B1-5b59f8055da6
-	- 13.2.	https://medium.com/@fdikmen/reduxta-action-creators-ve-action-types-24c28c651547
-	- 13.3.	https://medium.com/@fdikmen/redux-toolkit-ile-asenkron-i%CC%87%C5%9Flemleri-y%C3%B6netme-redux-thunk-41dde4ba4c07
 
   
     
 ### Day06
 01. Summary
 02. Install Redux Toolkit
+03. Using Modern Redux
+	- 13.1.	https://medium.com/@fdikmen/redux-toolkit-ile-modern-redux-kullan%C4%B1m%C4%B1-5b59f8055da6
+	- 13.2.	https://medium.com/@fdikmen/reduxta-action-creators-ve-action-types-24c28c651547
+	- 13.3.	https://medium.com/@fdikmen/redux-toolkit-ile-asenkron-i%CC%87%C5%9Flemleri-y%C3%B6netme-redux-thunk-41dde4ba4c07
+
+    > createSlice (userSlice.js)
+    > create/configure Store (App/store.js)
+    > Provide Store for all Components (index.js)
+    > useDispatch / useSelector
+
   
   
 
 Live Share Link;<br/>
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?95D6BB9F1AC9E1A1F9B62F9EB486DE507EC1
+https://prod.liveshare.vsengsaas.visualstudio.com/join?A5604901C0145CC770CB0CE20418AFFE55F4

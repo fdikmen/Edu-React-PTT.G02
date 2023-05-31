@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { createStore,combineReducers } from 'redux';
+import { createStore,combineReducers,Provider } from 'redux';
 
 // Step 1: Create a reducer function
 /*
@@ -58,7 +58,9 @@ myStore.dispatch({ type: "DECREMENT" });
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={myStore}>
+          <App />
+    </Provider>
   </React.StrictMode>
 );
 
