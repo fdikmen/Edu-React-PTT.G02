@@ -118,6 +118,7 @@ npm i react-router-dom
     ```
 10. Counter with Redux Core
 11. redux devtools extension
+[Configure Link](https://github.com/zalmoxisus/redux-devtools-extension
 12. Modern Redux - Redux Toolkit
 > SRC::: https://redux.js.org/tutorials/essentials/part-2-app-structure
 ```
