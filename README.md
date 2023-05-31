@@ -5,9 +5,9 @@ The topics here are the titles of the lessons covered for React Course Group-02.
 
 - Day 01-03 Level-1 (React Introduction)
 
-- Day 04-08 Level-2 (Building Web Applications with React and Redux)
+- Day 04-07 Level-2 (Building Web Applications with React and Redux)
 
-- Day 09-10 Level-3 (Advanced React)
+- Day 08-09 Level-3 (Advanced React)
 ---
 **Create a Project**
 To create a new React project, run the following command:
@@ -95,7 +95,7 @@ npm i react-router-dom
 > [BrowserRouter , Link (to), Routes, Route (path,index, no match *,any
 > text *, params :), Nested Route, NavLink ]
 
-05. DOM - Slide
+05. Slide : DOM & Events
 06. APP.3 - Keyboard-events-app
 07. Higher Order Component (HOC)
   
@@ -106,7 +106,7 @@ npm i react-router-dom
 04. Pure Component
 05. Context API (context-sample project)
 06. Promise Slide & Coding
-07. SLIDE:::Redux (redux-sample project) - Modern Redux
+07. Slide : Redux (redux-sample project) - Modern Redux
 
 > Store - dispatch(action) - action=>{type:'...',payload:'...'} Reducer
 > (Store_Brain-State_Management-State_Object) - subscribe
@@ -124,8 +124,6 @@ npm i react-router-dom
 ```
 npx create-react-app [my-app] --template redux
 ```
-
-  
     
 ### Day06
 01. Summary
@@ -142,9 +140,30 @@ npx create-react-app [my-app] --template redux
 
 04. Thunk Middleware
 05. Using Redux Tookit Template
+06. Second parameter (thunkAPI) in createAsyncThunk
+07. Final Project for React Traning - MovieApp
+   
 
 
-  
+### Day07
+01. Summary
+02. Slide : Building Web Applications with React and Redux
+03. MovieApp (Project Continue)
+    - Create React app With Redux Template
+    ```
+    npx create-react-app movie-app --template redux
+    ```
+    - Install Semantic UI 
+    ```
+    npm install semantic-ui-react semantic-ui-css
+    ```
+        - import Semantic UI CSS in index.js
+        ```
+        import 'semantic-ui-css/semantic.min.css'
+        ```
+    - Project Folder Structure <br/>
+    https://medium.com/@fdikmen/a-redux-toolkit-project-structure-guide-58093baa88a5
+    
   
 
 Live Share Link;<br/>
