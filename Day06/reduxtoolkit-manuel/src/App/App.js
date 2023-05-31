@@ -1,4 +1,4 @@
-import User from "./features/user/User";
+import User from "../features/user/User";
 
 function App() {
   return (

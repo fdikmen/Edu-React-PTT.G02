@@ -138,7 +138,10 @@ npx create-react-app [my-app] --template redux
     > createSlice (userSlice.js)
     > create/configure Store (App/store.js)
     > Provide Store for all Components (index.js)
-    > useDispatch / useSelector
+    > useDispatch / useSelector (Component=> User.js)
+
+04. Using Redux Tookit Template
+
 
   
   

@@ -7,14 +7,15 @@ const userSlice = createSlice({
         login: (state, action) => {
             state.userName = action.payload;
         },
-        delete: (state) => {
+        deleteUser: (state) => {
             state.isActive = false;
+            state.userName = "Deleted!";
         }
     },
 });
 
 /*const login = userSlice.actions.login;
 export login;*/
-export const {login} = userSlice.actions;
+export const {login,deleteUser} = userSlice.actions;
 
 export default userSlice.reducer;
