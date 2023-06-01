@@ -7,6 +7,7 @@ import {
     Menu,
 } from 'semantic-ui-react'
 import logo from '../logo.svg';
+import { Link } from 'react-router-dom';
 
 const menuStyle = {
     border: 'none',
@@ -43,32 +44,13 @@ export default class HeaderSection extends Component {
                         style={menuFixed ? fixedMenuStyle : menuStyle}
                     >
                         <Container text>
-                            <Menu.Item>
+                            <Menu.Item as={Link} to="/">
                                 <Image size='mini' src={logo} />
                             </Menu.Item>
-                            <Menu.Item header>Project Name</Menu.Item>
-                            <Menu.Item as='a'>Blog</Menu.Item>
-                            <Menu.Item as='a'>Articles</Menu.Item>
-
-                            <Menu.Menu position='right'>
-                                <Dropdown text='Dropdown' pointing className='link item'>
-                                    <Dropdown.Menu>
-                                        <Dropdown.Item>List Item</Dropdown.Item>
-                                        <Dropdown.Item>List Item</Dropdown.Item>
-                                        <Dropdown.Divider />
-                                        <Dropdown.Header>Header Item</Dropdown.Header>
-                                        <Dropdown.Item>
-                                            <i className='dropdown icon' />
-                                            <span className='text'>Submenu</span>
-                                            <Dropdown.Menu>
-                                                <Dropdown.Item>List Item</Dropdown.Item>
-                                                <Dropdown.Item>List Item</Dropdown.Item>
-                                            </Dropdown.Menu>
-                                        </Dropdown.Item>
-                                        <Dropdown.Item>List Item</Dropdown.Item>
-                                    </Dropdown.Menu>
-                                </Dropdown>
-                            </Menu.Menu>
+                            <Menu.Item header as={Link} to="/">Movie App</Menu.Item>
+                            <Menu.Item as={Link} to="/movie/add">Movie Add</Menu.Item>
+                            <Menu.Item as={Link} to="/movie/list">Movie List</Menu.Item>
+                            {/* <Link to="/movie/list">List</Link> */}
                         </Container>
                     </Menu>
                 </InView>

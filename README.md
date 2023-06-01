@@ -163,6 +163,35 @@ npx create-react-app [my-app] --template redux
         ```
     - Project Folder Structure <br/>
     https://medium.com/@fdikmen/a-redux-toolkit-project-structure-guide-58093baa88a5
+
+    - Using Template from SemanticUI
+
+    - Create components (MovieAdd & MovieList)
+
+    - Configure Menu (React Router DOM)
+
+    ```
+    npm i react-router-dom  
+    ```
+        - Using BrowserRouter (index.js)
+        - Using Link (HeaderSection.js)
+        - Using Routes/Route (RootRouter.js)
+        - Import RootRouter in HomePage.js
+    - Using Message Component From SemanticUI for Home/404 JSX Code (RootRouter.js)
+    - Using RTK - Create Slice File (movieSlice.js) with rxslice
+    - import reducer to Store (store.js)
+    - Using [mockApi.io](https://mockapi.io/)
+    - Create base Axios Instance (/API/axiosConfig.js)
+    - Coding FetchMovie method in Slice (MovieSlice.js)
+    - Using FetchMovie in Slice ExtraReducer (MovieSlice.js)
+    - Get data from Store in MovieList.js
+    - Create CardComponent
+    - Coding CreateMovie method in Slice (MovieSlice.js)
+    - Using CreateMovie in Slice ExtraReducer (MovieSlice.js)
+    -
+
+
+
     
   
 
