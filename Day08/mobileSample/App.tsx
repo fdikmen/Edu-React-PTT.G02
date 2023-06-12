@@ -27,7 +27,7 @@ export default function App(props) {
 
 import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
-import FirstComp from './src/components/FirstComp.tsx'
+import FirstComp from './src/components/FirstComp'
 import SecondComp from './src/components/SecondComp.js'
 
 type Props = {
