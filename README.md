@@ -203,7 +203,7 @@ npx create-react-app [my-app] --template redux
 - style- stylesheets, ActivityIndicator,Dimensions, Platform
 06. ActivityIndicator - ReactNative-Navigator
 07. JSPromise
-09. Lazy
+09. Lazy (npx create-react-app lazy-suspense-sample)
 10. Suspense
 11. Isomorphic
 06. i18n l10n
