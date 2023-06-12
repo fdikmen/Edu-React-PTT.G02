@@ -199,22 +199,19 @@ npx create-react-app [my-app] --template redux
 05. Introduction to TypeScript
 - tsrnf  || tsrnc || rnf || rnc
 - View, Text, SafeAreaView, Props, State, LifeCycle Methods, Events - TwoDataBind
-- Alert.alert, Alert.prompt, Button, 
-06. i18n l10n
-07. React Fragment=>  <> ... </>
-08. Promise
+- Alert.alert, Alert.prompt, Button, TouchableOpacity, TouchableHightlight, ScrollView, FlatList
+- style- stylesheets, ActivityIndicator,Dimensions, Platform
+06. ActivityIndicator - ReactNative-Navigator
+07. JSPromise
 09. Lazy
 10. Suspense
 11. Isomorphic
+06. i18n l10n
+07. React Fragment=>  <> ... </>
+
 12. NextJS
 13. Final-Project
 
 
-
-
-
-    
-  
-
 Live Share Link;<br/>
-https://prod.liveshare.vsengsaas.visualstudio.com/join?3A6FEADDBC291047892F99ECA0DBB26EC649
+https://prod.liveshare.vsengsaas.visualstudio.com/join?48AD8A9B1282CC7A54F205842F4121A7B13D

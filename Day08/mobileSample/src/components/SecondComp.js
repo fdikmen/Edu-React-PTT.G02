@@ -47,7 +47,7 @@ export default class SecondComp extends Component {
                     <Text style={myStyles.btn}>Button</Text>
                 </TouchableOpacity>
 
-                <ActivityIndicator size="large" color="red"/>
+                <ActivityIndicator animating={false} hidesWhenStopped={false} size="large" color="red"/>
             </ScrollView>
         )
     }
