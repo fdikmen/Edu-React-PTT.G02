@@ -188,7 +188,28 @@ npx create-react-app [my-app] --template redux
     - Create CardComponent
     - Coding CreateMovie method in Slice (MovieSlice.js)
     - Using CreateMovie in Slice ExtraReducer (MovieSlice.js)
-    -
+
+
+
+### Day08
+01. Summary
+02. Source Book (Handbook)
+03. Table of Content
+04. Introduction to React Native
+05. Introduction to TypeScript
+- tsrnf  || tsrnc || rnf || rnc
+- View, Text, SafeAreaView, Props, State, LifeCycle Methods, Events - TwoDataBind
+- Alert.alert, Alert.prompt, Button, 
+06. i18n l10n
+07. React Fragment=>  <> ... </>
+08. Promise
+09. Lazy
+10. Suspense
+11. Isomorphic
+12. NextJS
+13. Final-Project
+
+
 
 
 
@@ -196,5 +217,4 @@ npx create-react-app [my-app] --template redux
   
 
 Live Share Link;<br/>
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?0BF1179D0F941BD305A87E80F13767561B1D
+https://prod.liveshare.vsengsaas.visualstudio.com/join?3A6FEADDBC291047892F99ECA0DBB26EC649
