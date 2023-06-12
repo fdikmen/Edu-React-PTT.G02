@@ -213,6 +213,11 @@ npm i react-intl
 ```
 12. Isomorphic
 13. NextJS
+- node -v || node --version
+```node
+npx create-next-app
+```
+- npm run dev
 14. Final-Project
 
 

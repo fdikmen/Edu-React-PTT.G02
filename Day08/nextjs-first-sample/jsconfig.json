@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+
+// import TestComp from './src/components/TestComp'
+// import TestComp from '@/components/TestComp'
+
