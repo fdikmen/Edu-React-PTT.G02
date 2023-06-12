@@ -203,14 +203,17 @@ npx create-react-app [my-app] --template redux
 - style- stylesheets, ActivityIndicator,Dimensions, Platform
 06. ActivityIndicator - ReactNative-Navigator
 07. JSPromise
-09. Lazy (npx create-react-app lazy-suspense-sample)
-10. Suspense
-11. Isomorphic
-06. i18n l10n
-07. React Fragment=>  <> ... </>
-
-12. NextJS
-13. Final-Project
+08. Lazy (npx create-react-app lazy-suspense-sample)
+09. Suspense
+10. React Fragment=>  <> ... </>
+11. i18n l10n
+Note: https://www.merixstudio.com/blog/internationalization-i18n-localization-l10n-react-apps/?utm\_source=facebook&utm\_medium=social&utm_campaign=posting
+```node
+npm i react-intl
+```
+12. Isomorphic
+13. NextJS
+14. Final-Project
 
 
 Live Share Link;<br/>
