@@ -221,5 +221,8 @@ npx create-next-app
 14. Final-Project
 
 
+### Day09
+01. Nextjs snippets
+
 Live Share Link;<br/>
-https://prod.liveshare.vsengsaas.visualstudio.com/join?48AD8A9B1282CC7A54F205842F4121A7B13D
+https://prod.liveshare.vsengsaas.visualstudio.com/join?587E86DFC81368860CE231B9C30E4FA17B9D
