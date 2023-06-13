@@ -222,7 +222,35 @@ npx create-next-app
 
 
 ### Day09
-01. Nextjs snippets
+01. NextJS snippets
+02. npx create-next-app lesson-sample
+- cd xxxPath-Urlxxx  && npm run dev
+- static route => Folder/page.js
+- dynamic route => [Folder]/page.js
+- using params => props.params.XXParameterNameXX
+- Catch All Routes => [...Folder]/page.js
+- Multiple Routes static+dynamic
+- Optional catch-all Routes => [[...Folder]]/page.js
+- Route Group => (GroupName)/Folder
+03. Link
+- src
+- prefetch
+- replace
+04. app-Folder
+- jsx, js, tsx
+- layout.js => children,...res
+- page.js
+- loading.js
+- error.js
+- notFound() => not-found.js
+05. pages/404.js | pages/500.js
+05. Search Params => props.searchParams => Query Params
+Params => props.params => STD Params
+06. Data Fetch (fetch/axios)
+- fetch => next: {revalidate: 1000}
+- Promise.All
 
+07. "use client" --- "use server"
+08. Images - Fonts
 Live Share Link;<br/>
-https://prod.liveshare.vsengsaas.visualstudio.com/join?587E86DFC81368860CE231B9C30E4FA17B9D
+https://prod.liveshare.vsengsaas.visualstudio.com/join?AEE0B2CCAD60DC7E5CE9F778D236A52729CA
