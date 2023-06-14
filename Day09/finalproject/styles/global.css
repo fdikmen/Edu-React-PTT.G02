@@ -1,0 +1,38 @@
+/* Body elementi için genel stiller */
+body {
+  font-family: "Inter", sans-serif; /* Font ailesini belirle */
+  font-size: 16px; /* Ana font boyutunu belirle */
+  background-color: #000; /* Arka plan rengini belirle */
+}
+
+/* Next.js scroll focus boundary için özel stiller */
+div[data-nextjs-scroll-focus-boundary] {
+  height: 100%; /* Yüksekliği konteynırı dolduracak şekilde ayarla */
+}
+
+/*
+Next.js 13 ile birlikte, Next.js'in data-nextjs-scroll-focus-boundary adı verilen bir data etiketi ile div'ler eklediğini görmüş olabilirsiniz.
+ Bu, dikey stillendirmelerinizin beklediğiniz gibi çalışmamasına veya iç içe layout'lar arasında açıklanamayan div'lerin görünmesine neden olabilir​​.
+ Bu sorunla karşılaştığınızda, aşağıdaki kodu global CSS dosyanıza ekleyerek de sorunu çözebilirsiniz:
+ */
+ /*
+ [data-nextjs-scroll-focus-boundary] {
+  display: contents;
+} */
+
+/* Grid konteynır stilleri */
+.page-grid {
+  display: grid; /* Görüntüyü grid'e ayarla */
+  grid-template-columns: 1fr min(1440px, 94%) 1fr; /* Grid sütunlarını tanımla */
+  grid-template-rows: 96px auto 72px; /* Grid satırlarını tanımla */
+}
+
+/* Grid içindeki elementler için stiller */
+.page-grid > * {
+  grid-column: 2; /* Elementleri orta sütuna yerleştir */
+}
+
+/* Tüm grid genişliğini kaplaması gereken elementler için stiller */
+.page-grid > .full-width {
+  grid-column: 1 / -1; /* Tüm grid sütunlarına yay */
+}

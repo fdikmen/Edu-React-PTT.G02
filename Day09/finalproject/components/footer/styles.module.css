@@ -1,0 +1,12 @@
+/* Altbilgi için stiller */
+.siteFooter {
+    display: flex; /* İçeriği yatayda düzenle */
+    align-items: center; /* İçeriği ortala */
+    justify-content: center; /* İçeriği merkeze hizala */
+  }
+  
+  /* Altbilgideki linkler için stiller */
+  .siteFooter a {
+    text-decoration: underline; /* Linklerin altını çiz */
+  }
+  

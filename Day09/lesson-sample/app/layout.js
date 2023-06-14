@@ -1,6 +1,8 @@
-import { Inter } from 'next/font/google'
+import { Inter,Roboto } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const roboto = Roboto({ weight:['900'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App DVA',
@@ -11,7 +13,7 @@ export default function RootLayout({ children,...res }) {
   console.log('RootLayout', res)
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={roboto.className}>
         <h1>HEADER</h1>
         <hr/>
         {children}

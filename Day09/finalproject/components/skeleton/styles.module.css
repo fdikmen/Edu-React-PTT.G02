@@ -1,0 +1,33 @@
+/* Bileşenin stil sınıfı */
+.skeleton {
+    display: inline-block; /* Bileşenin yan yana blok olarak görüntülenmesini sağlar */
+    position: relative; /* Bileşenin kendi içinde göreceli konumlandırmasını belirler */
+    overflow: hidden; /* Bileşenin içeriği taşarsa gizlenmesini sağlar */
+    background-color: rgba(255, 255, 255, 0.3); /* Bileşenin arka plan rengini belirler */
+    height: 100%; /* Bileşenin yüksekliğini tamamen kaplamasını sağlar */
+    width: 100%; /* Bileşenin genişliğini tamamen kaplamasını sağlar */
+  }
+  
+  /* Bileşenin içeriğinin yerini alacak yer tutucu stilini oluşturur */
+  .skeleton::after {
+    position: absolute; /* Yer tutucunun mutlak konumlandırmasını belirler */
+    top: 0; right: 0; bottom: 0; left: 0; /* Yer tutucunun bütün kenarlara tamamen yayılmasını sağlar */
+    transform: translateX(-100%); /* Yer tutucunun tamamen sola kaydırılmasını sağlar */
+    background: linear-gradient( /* Yer tutucunun yanıp sönen efekti için lineer bir gradient arka planı belirler */
+      90deg,
+      rgba(255, 255, 255, 0) 0,
+      rgba(255, 255, 255, 0.25) 25%,
+      rgba(255, 255, 255, 0.25) 50%,
+      rgba(255, 255, 255, 0)
+    );
+    animation: shimmer 2s infinite; /* shimmer adlı animasyonun 2 saniyede bir sürekli tekrarlanmasını sağlar */
+    content: ""; /* Pseudo-elementin içeriğini boş bırakır */
+  }
+  
+  /* Yanıp sönen animasyonu tanımlar */
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%); /* Yer tutucunun tamamen sağa kaydırılmasını sağlar */
+    }
+  }
+  

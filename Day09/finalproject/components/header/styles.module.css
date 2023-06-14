@@ -1,0 +1,32 @@
+/* Üst bilgi arka plan için stiller */
+.siteHeader {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  }
+  
+  /* Üst bilgi içerik düzeni için stiller */
+  .headerContent {
+    display: flex; /* İçeriği yatayda düzenle */
+    align-items: center; /* İçeriği ortala */
+    justify-content: space-between; /* İçerik arasında eşit boşluk bırak */
+  }
+  
+  /* Logo için stiller */
+  .siteLogo {
+    display: flex; /* Logo ve yanındaki içeriği yatayda düzenle */
+    align-items: center; /* Logo ve yanındaki içeriği ortala */
+    gap: 8px; /* Logo ve yanındaki içerik arasında boşluk bırak */
+    font-size: 24px; /* Font boyutunu belirle */
+    font-weight: 700; /* Font kalınlığını belirle */
+    letter-spacing: -1px; /* Harfler arası boşluğu belirle */
+    color: #fafafa; /* Font rengini belirle */
+  }
+  
+  /* Navigasyon menüsü için stiller */
+  .navMenu {
+    display: flex; /* Menü öğelerini yatayda düzenle */
+    gap: 48px; /* Menü öğeleri arasında boşluk bırak */
+    color: #fafafa; /* Font rengini belirle */
+    font-weight: 700; /* Font kalınlığını belirle */
+    letter-spacing: 2px; /* Harfler arası boşluğu belirle */
+  }
+  

@@ -1,0 +1,33 @@
+.loadingContainer {
+    min-height: 100%; /* Kapsayıcının minimum yüksekliğini tam ekran yapar */
+    min-width: 100%;  /* Kapsayıcının minimum genişliğini tam ekran yapar */
+    display: flex;    /* İçerikleri hizalamak ve düzenlemek için flexbox modelini kullanır */
+    align-items: center; /* İçerikleri dikey eksende ortalar */
+    justify-content: center; /* İçerikleri yatay eksende ortalar */
+  }
+  
+  .loadingAnimation {
+    display: inline-block; /* Kutuyu inline-block olarak ayarlar */
+    width: 50px; /* Kutunun genişliğini belirler */
+    height: 50px; /* Kutunun yüksekliğini belirler */
+    border: 3px solid rgba(255, 255, 255, 0.3); /* Kenarlık stillerini belirler */
+    border-radius: 50%; /* Kenarları yuvarlar */
+    border-top-color: #fff; /* Üst kenarlığın rengini belirler */
+    animation: donme 1s ease-in-out infinite; /* Animasyonun adı, süresi, zamanlaması ve tekrar sayısı */
+    -webkit-animation: donme 1s ease-in-out infinite; /* Webkit tarayıcıları için animasyon stilini belirler */
+  }
+  
+  /* Animasyonun ismini ve özelliklerini belirler */
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg); /* Döndürme efektini belirler */
+    }
+  }
+  
+  /* Webkit tarayıcıları için animasyonun ismini ve özelliklerini belirler */
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg); /* Döndürme efektini belirler */
+    }
+  }
+  

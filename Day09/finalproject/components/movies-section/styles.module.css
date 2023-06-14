@@ -1,0 +1,36 @@
+/* Filmler bölümü için stil sınıfı */
+.moviesSection {
+    margin-top: 36px; /* Üst kenar boşluğunu 36 piksel olarak ayarlar */
+  }
+  
+  /* Başlık için stil sınıfı */
+  .title {
+    margin-bottom: 12px; /* Alt kenar boşluğunu 12 piksel olarak ayarlar */
+    text-transform: uppercase; /* Metni büyük harflere dönüştürür */
+    font-size: 24px; /* Yazı tipi boyutunu 24 piksel olarak ayarlar */
+    letter-spacing: -1px; /* Harf aralığını -1 piksel olarak ayarlar */
+  }
+  
+  /* Filmler için stil sınıfı */
+  .movies {
+    display: grid; /* Öğeleri bir ızgara düzeninde yerleştirir */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Sütunların genişliğini otomatik olarak ayarlar, minimum 180 piksel, maksimum 1 fr olarak belirlenir */
+    grid-auto-rows: 320px; /* Otomatik satır yüksekliğini 320 piksel olarak ayarlar */
+    gap: 24px; /* Öğeler arasındaki boşluğu 24 piksel olarak ayarlar */
+  }
+  
+  /* Film için stil sınıfı */
+  .movie {
+    overflow: hidden; /* Taşan içeriği gizler */
+    border-radius: 8px; /* Kenarları yuvarlatır */
+    position: relative; /* Göreceli konumlandırmayı belirler */
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5); /* Kutuya gölge ekler */
+    transition: transform 0.3s ease; /* Dönüşümü 0.3 saniyede yumuşak bir geçişle uygular */
+  }
+  
+  /* Fare üzerine gelindiğindeki stil sınıfı */
+  .movie:hover {
+    z-index: 9; /* Z sıralamasını yükseltir */
+    transform: scale(1.25); /* Öğeyi 1.25 kat büyütür */
+  }
+  

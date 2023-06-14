@@ -225,6 +225,7 @@ npx create-next-app
 01. NextJS snippets
 02. npx create-next-app lesson-sample
 - cd xxxPath-Urlxxx  && npm run dev
+03. Routes
 - static route => Folder/page.js
 - dynamic route => [Folder]/page.js
 - using params => props.params.XXParameterNameXX
@@ -232,25 +233,49 @@ npx create-next-app
 - Multiple Routes static+dynamic
 - Optional catch-all Routes => [[...Folder]]/page.js
 - Route Group => (GroupName)/Folder
-03. Link
+04. Link
 - src
 - prefetch
 - replace
-04. app-Folder
+05. app-Folder
 - jsx, js, tsx
 - layout.js => children,...res
 - page.js
 - loading.js
 - error.js
 - notFound() => not-found.js
-05. pages/404.js | pages/500.js
-05. Search Params => props.searchParams => Query Params
+06. pages/404.js | pages/500.js
+07. Search Params => props.searchParams => Query Params
 Params => props.params => STD Params
-06. Data Fetch (fetch/axios)
+08. Data Fetch (fetch/axios)
 - fetch => next: {revalidate: 1000}
 - Promise.All
+09. "use client" --- "use server"
+10. Images
+- FakeData: https://picsum.photos/200/300
+- placeholder - blurDataURL
+- quality
+- fill
+- src - height - width - alt
+11. Fonts
+12. Script
+12. Tailwind CSS
+13. FlowBite
+14. Final-Project
+npx create-next-app finalproject
+- cd xxxPath-Urlxxx  && npm run dev
+- head.js
+- styles
+- reset.css (https://meyerweb.com/eric/tools/css/reset/)
+- global.css
+- React Icons [npm i react-icons]
+- components/header/index.js && components/header/styles.modules.css
+- components/footer/index.js && components/footer/styles.modules.css
+(https://symbl.cc/en/)
+- .env
+- services/movie.js
+- Loading
 
-07. "use client" --- "use server"
-08. Images - Fonts
+
 Live Share Link;<br/>
 https://prod.liveshare.vsengsaas.visualstudio.com/join?AEE0B2CCAD60DC7E5CE9F778D236A52729CA
