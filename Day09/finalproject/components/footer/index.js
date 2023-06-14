@@ -12,7 +12,7 @@ function Footer() {
       by&nbsp;
       <Link style={{textDecoration:'none'}} 
       href="https://github.com/fdikmen" target="_blank">
-        ╳ {/* https://symbl.cc/en/ */}
+        ╳ fdikmen{/* https://symbl.cc/en/ */}
       </Link>
     </footer>
   );

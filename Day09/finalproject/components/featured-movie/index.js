@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaPlus } from "react-icons/fa";
+import { FaPlus,FaPlay } from "react-icons/fa";
 
 import styles from "./styles.module.css";
 
@@ -22,7 +22,7 @@ function FeaturedMovie({ movie = {}, isShortDescription = true }) {
             <div className={styles.actionButtons}>
                 {/* Film oynatma düğmesi */}
                 <Link className={styles.playButton} href={`/movie/${movie.id}`}>
-                    Play
+                  <FaPlay/>Play
                 </Link>
 
                 {/* Film ekleme düğmesi */}

@@ -29,4 +29,9 @@
     font-weight: 700; /* Font kalınlığını belirle */
     letter-spacing: 2px; /* Harfler arası boşluğu belirle */
   }
-  
+
+  .navItem {
+    display: flex;     /* Öğeleri yatay hizalamak için flex konteyneri olarak ayarlar */
+    align-items: center;    /* Öğeleri dikeyde hizalar ve merkezler */
+    gap: 5px;    /* Öğeler arasında 5 piksel boşluk bırakır */
+}

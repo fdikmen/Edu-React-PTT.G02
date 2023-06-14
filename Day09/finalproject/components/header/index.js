@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaPlayCircle } from "react-icons/fa";
+import { FaPlayCircle, FaSquare } from "react-icons/fa";
 
 import styles from "./styles.module.css";
 
@@ -12,9 +12,9 @@ function Header() {
           <FaPlayCircle /> Movie App
         </Link>
         <nav className={styles.navMenu}>
-          <Link href="#">Moveis</Link>
-          <Link href="#">Series</Link>
-          <Link href="#">Kids</Link>
+          <Link href="/movies" className={styles.navItem}><FaSquare />Movies</Link>
+          <Link href="/tv" className={styles.navItem}><FaSquare />TV Shows</Link>
+          <Link href="/people" className={styles.navItem}><FaSquare />People</Link>
         </nav>
       </div>
     </header>
